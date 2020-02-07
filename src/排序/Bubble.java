@@ -1,4 +1,7 @@
 package 排序;
+
+import java.util.Arrays;
+
 /*
 冒泡排序算法,对整数进行排序
  */
@@ -22,10 +25,14 @@ public class Bubble {
     }
 
     public static void show(int a[]){
+        /*
         for (int i = 0; i <a.length ; i++) {
+
 
             System.out.print(a[i]+" ");
         }
+         */
+        System.out.println(Arrays.toString(a));
     }
     public static void main(String[] args) {
         int arr[] = {4,5,6,3,2,1};
