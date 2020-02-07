@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62571fc8-5dc4-47d7-b02d-f9e9633d896e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/数据结构和算法/算法分析/After.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/排序/TestCompareble.java" afterDir="false" />
+    <list default="true" id="62571fc8-5dc4-47d7-b02d-f9e9633d896e" name="Default Changelist" comment="Compareble接口实现类的自然排序">
+      <change afterPath="$PROJECT_DIR$/src/排序/冒泡排序.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/说明.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +50,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.TestCompareble">
+  <component name="RunManager" selected="Application.Bubble">
     <configuration name="After" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="算法分析.After" />
       <module name="数据结构和算法" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="算法分析.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.Bubble" />
+      <module name="数据结构和算法" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bubble" />
         <item itemvalue="Application.TestCompareble" />
         <item itemvalue="Application.After" />
       </list>
@@ -110,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580982743217</updated>
       <workItem from="1580982744596" duration="4018000" />
-      <workItem from="1581057548015" duration="1348000" />
+      <workItem from="1581057548015" duration="7388000" />
+      <workItem from="1581074364199" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="新建仓库并提交说明文档">
       <created>1580982885935</created>
@@ -133,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580983479911</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Compareble接口实现类的自然排序">
+      <created>1581060413022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581060413022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,9 +198,14 @@
     <MESSAGE value="新建仓库并提交说明文档" />
     <MESSAGE value="事后分析估算方法" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="Compareble接口实现类的自然排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compareble接口实现类的自然排序" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1581067788694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1581067788694" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1580982761941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,37 +214,64 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581042085794" />
-    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1580983479125">
+    <state x="372" y="5" key="CommitChangelistDialog2" timestamp="1581066592945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580983479125" />
+    <state x="372" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581066592945" />
     <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1580982807043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580982807043" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1580983278774">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581074631895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580983278774" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1580983278774">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581074631895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580983278774" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1580983278774">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581074631894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580983278774" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1580983278774">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581074631894" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581074631895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580983278774" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1580983358274">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581074631895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580983358274" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581074631895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581074631895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581074631895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581074631895" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1581060431806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581060431806" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581041845093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1581041845093" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/排序/Bubble.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
