@@ -13,6 +13,12 @@ public class Shell2 {
     public static  void sort(Comparable a[]){
         int n = a.length;
         int h = a.length/2;
+
+        /*while(h<a.length/2){
+            h = 2*h+1;
+
+        }
+        */
         while(h>=1){
             for (int i = h; i < n; i++) {
                 for (int j = i; j >=h; j = j-h) {
